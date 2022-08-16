@@ -1,0 +1,167 @@
+body{
+    min-width: 680px; //조절하기
+    div.content{
+        padding: 40px 0; //780
+        overflow: hidden;
+        header{
+            max-width: 780px;
+        }
+        section{
+            max-width: 780px;
+        }
+    }
+}
+/* main *//* main *//* main *//* main *//* main */
+/* main *//* main *//* main *//* main *//* main */
+.mainWrap{
+    main{
+        .image{
+            height: 90vh;
+        }
+    }
+    .maintitle{
+        width: 90%; max-width: 780px; margin: 0 auto;
+        .title{
+            width: 100%;
+            position: absolute; bottom: 200px;
+            z-index: 5;
+            .image{
+                height: 160px;
+                background-size: contain;
+            }
+        }
+        .btns{
+            display: none;
+        }
+    }
+}
+
+/* artsection *//* artsection *//* artsection *//* artsection *//* artsection */
+/* artsection *//* artsection *//* artsection *//* artsection *//* artsection */
+.artsection{
+    section{
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-star; //780
+        .image{ //780
+            width: calc(50% - 10px);
+            height: 280px;
+            background-size: 110%;
+            &:hover{
+                background-size: 120%;
+            }
+        }
+        .texts{
+            width: calc(50% - 10px); //780
+            h5{
+                padding-top: 10px; //780
+                font-size: 12px; //780
+                color: #555;
+                line-height: 40px; //780
+            }
+            h3{
+                font-weight: 700;
+                font-size: 16px; //780
+                line-height: 30px;  //780
+                span{
+                    font-size: 24px; //780
+                    padding-bottom: 10px;
+                    color: #000;
+                }
+            }
+            p{ //780
+                padding-top: 20px;
+                font-size: 12px;
+                line-height: 20px;
+                br{display: none;}
+            }
+            .btn{
+                button{
+                    background-color: #fcc;
+                    font-size: 14px;
+                    width: 120px; height: 30px;
+                }
+            }
+        }
+    }
+}
+.at01{
+    padding: 200px 0 40px !important; //780
+    section{
+        p{
+            br{display: block !important;}
+            span:last-of-type{display: none;}
+        }
+    }
+}
+.at02{
+    padding: 80px 0 160px !important; //780
+}
+
+/* mvsection *//* mvsection *//* mvsection *//* mvsection *//* mvsection */
+/* mvsection *//* mvsection *//* mvsection *//* mvsection *//* mvsection */
+.mvsection{
+    padding: 120px 0 160px !important;
+    // background-image: url(../img/index_contentHappy_bg.jpg);
+    background-color: #fcc;
+    header{
+        .texts{
+            text-align: center; //720
+            width: 100%; //720
+            h2{
+                padding-left: 20px;
+                font-family: 'noto sans kr';
+                font-size: 24px;
+                color: #555;
+            }
+            p{
+                text-align: right;
+                padding-right: 20px;
+                span{
+                    font-family: 'noto sans kr';
+                    font-weight: 700;
+                    font-size: 18px;
+                }
+            }
+        }
+    }
+    section{
+        padding-top: 80px;
+        .mvframe{
+            width: 100%; height: 480px; //780
+            iframe{
+                width: 100%; height: 480px; //780
+                position: absolute; right: 10px; //780
+            }
+            .mvbg{
+                width: 100%; height: 480px; //780
+                position: absolute; top: 20px; right: -10px; //720
+            }
+        }
+    }
+}
+
+/* snssection *//* snssection *//* snssection *//* snssection *//* snssection */
+/* snssection *//* snssection *//* snssection *//* snssection *//* snssection */
+.snssection{
+    padding: 120px 0 !important; //780
+    header{
+        p{
+            font-family: 'noto sans kr';
+            font-weight: 300;
+            font-size: 14px;
+            color: #ccc;
+            line-height: 20px;
+            padding: 20px 0 40px;
+        }
+    }
+    section{
+        figure{
+            width: calc(100% / 3 - 20px); height: 200px; //720
+            p{
+                font-size: 36px;
+                padding: 40px 0; //780
+            }
+        }
+    }
+}

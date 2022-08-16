@@ -1,0 +1,481 @@
+/* common */
+/* common */
+/* common */
+/* common */
+/* common */
+/* common */
+/* common */
+/* common */
+/* common */
+/* common */
+@font-face {
+  font-family: 'post';
+  font-weight: 500;
+  src: url(../fonts/PoetsenOne-Regular.ttf);
+}
+
+body {
+  min-width: 920px;
+  font-family: 'Noto Sans KR';
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 20px;
+  color: #555;
+}
+
+body div.content {
+  padding: 80px 0;
+  overflow: hidden;
+}
+
+body div.content header {
+  width: 90%;
+  max-width: 1080px;
+  margin: 0 auto;
+}
+
+body div.content section {
+  width: 90%;
+  max-width: 1080px;
+  margin: 0 auto;
+}
+
+/* main */
+/* main */
+/* main */
+/* main */
+/* main */
+/* main */
+/* main */
+/* main */
+/* main */
+/* main */
+.mainWrap {
+  position: relative;
+  height: 90vh;
+}
+
+.mainWrap main .image {
+  position: absolute;
+  width: 100%;
+  height: 90vh;
+}
+
+.mainWrap main .i1 {
+  background-image: url("../img/sub3_daily01.jpg");
+  background-position: top;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.mainWrap main .i2 {
+  background-image: url("../img/sub3_daily02.jpg");
+  background-position: top;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.mainWrap main .i3 {
+  background-image: url("../img/sub3_daily03.jpg");
+  background-position: top;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.mainWrap main .i4 {
+  background-image: url("../img/sub3_daily04.jpg");
+  background-position: top;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.mainWrap .maintitle {
+  width: 90%;
+  max-width: 1080px;
+  margin: 0 auto;
+  position: relative;
+  height: 90vh;
+}
+
+.mainWrap .maintitle .title {
+  width: 60%;
+  position: absolute;
+  top: 50%;
+  z-index: 5;
+}
+
+.mainWrap .maintitle .title .image {
+  background-image: url("../img/sub3_news_maintext.png");
+  height: 200px;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  -webkit-animation-name: im;
+          animation-name: im;
+  -webkit-animation-duration: 4s;
+          animation-duration: 4s;
+}
+
+@-webkit-keyframes im {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+@keyframes im {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+.mainWrap .maintitle .title h3 {
+  font-family: 'post';
+  font-size: 48px;
+  position: absolute;
+  bottom: -160px;
+  line-height: 80px;
+  color: #000;
+}
+
+.mainWrap .maintitle .btns {
+  position: absolute;
+  bottom: 20px;
+  right: 0;
+}
+
+.mainWrap .maintitle .btns button {
+  width: 80px;
+  height: 40px;
+  text-align: center;
+  background-color: #cc7c7c;
+}
+
+.mainWrap .maintitle .btns button i {
+  font-size: 24px;
+  color: #fff;
+}
+
+/* artsection */
+/* artsection */
+/* artsection */
+/* artsection */
+/* artsection */
+/* artsection */
+/* artsection */
+/* artsection */
+/* artsection */
+/* artsection */
+.artsection section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.artsection section .image {
+  width: calc(50% - 20px);
+  height: 400px;
+  background-size: 105%;
+  background-position: center;
+  background-repeat: no-repeat;
+  -webkit-transition: background-size .2s;
+  transition: background-size .2s;
+}
+
+.artsection section .image:hover {
+  background-size: 100%;
+}
+
+.artsection section .texts {
+  width: calc(50% - 20px);
+}
+
+.artsection section .texts h5 {
+  font-size: 14px;
+  color: #555;
+  line-height: 40px;
+}
+
+.artsection section .texts h3 {
+  font-family: 'post';
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 40px;
+}
+
+.artsection section .texts h3 span {
+  font-family: 'noto sans kr';
+  font-size: 36px;
+  padding-bottom: 10px;
+  color: #000;
+}
+
+.artsection section .texts p {
+  padding-top: 40px;
+  line-height: 30px;
+}
+
+.artsection section .texts .btn {
+  margin-top: 40px;
+}
+
+.artsection section .texts .btn button {
+  background-color: #cc7c7c;
+  font-family: 'noto sans kr';
+  font-weight: 300;
+}
+
+.at01 {
+  padding-top: 160px !important;
+}
+
+.at01 section .image {
+  background-image: url(../img/sub3_at01.jpg);
+}
+
+.at01 section .texts {
+  text-align: right;
+}
+
+.at02 {
+  padding-bottom: 160px !important;
+}
+
+.at02 section .image {
+  background-image: url(../img/sub3_at02.jpg);
+}
+
+/* mvsection */
+/* mvsection */
+/* mvsection */
+/* mvsection */
+/* mvsection */
+/* mvsection */
+/* mvsection */
+/* mvsection */
+/* mvsection */
+/* mvsection */
+.mvsection {
+  padding: 120px 0 !important;
+  background-color: #fcc;
+}
+
+.mvsection header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.mvsection header .texts h2 {
+  padding-left: 20px;
+  font-family: 'noto sans kr';
+  font-size: 24px;
+  line-height: 40px;
+  color: #555;
+}
+
+.mvsection header .texts h2 span {
+  line-height: 60px;
+  font-family: 'post';
+  font-weight: 700;
+  font-size: 48px;
+  color: #000;
+}
+
+.mvsection header .texts h2 span br {
+  display: none;
+}
+
+.mvsection header .texts p {
+  margin-top: 40px;
+  font-size: 14px;
+  line-height: 30px;
+  padding: 20px 0;
+  padding-left: 40px;
+  border-top: 1px solid #000;
+  border-bottom: 1px solid #000;
+}
+
+.mvsection section {
+  padding-top: 40px;
+}
+
+.mvsection section .mvframe {
+  width: 100%;
+  height: 600px;
+  position: relative;
+}
+
+.mvsection section .mvframe iframe {
+  width: 100%;
+  height: 520px;
+  position: absolute;
+  right: 20px;
+  z-index: 10;
+}
+
+.mvsection section .mvframe .mvbg {
+  background-image: url(../img/sub3_videobg.jpg);
+  width: 100%;
+  height: 520px;
+  position: absolute;
+  top: 20px;
+  right: 0px;
+  z-index: 0;
+}
+
+/* snssection */
+/* snssection */
+/* snssection */
+/* snssection */
+/* snssection */
+/* snssection */
+/* snssection */
+/* snssection */
+/* snssection */
+/* snssection */
+.snssection {
+  padding: 160px 0 !important;
+  background-color: #000;
+}
+
+.snssection header {
+  text-align: center;
+}
+
+.snssection header h2 {
+  font-family: 'post';
+  font-size: 60px;
+  line-height: 80px;
+  color: #fff;
+}
+
+.snssection header p {
+  font-family: 'noto sans kr';
+  font-weight: 300;
+  font-size: 14px;
+  color: #ccc;
+  line-height: 20px;
+  padding: 20px 0 40px;
+}
+
+.snssection section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  row-gap: 20px;
+}
+
+.snssection section figure {
+  width: calc(100% / 3 - 20px);
+  height: 300px;
+  -webkit-transition: all 0.4s;
+  transition: all 0.4s;
+  cursor: pointer;
+}
+
+.snssection section figure p {
+  font-size: 36px;
+  color: #fff;
+  text-align: center;
+  width: 100%;
+  height: 100%;
+  display: none;
+  padding: 90px 0;
+}
+
+.snssection section figure p span {
+  font-family: 'noto sans kr';
+  font-size: 14px;
+  text-decoration: underline;
+}
+
+.snssection section figure:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  background-color: rgba(0, 0, 0, 0.5);
+  background-blend-mode: color;
+}
+
+.snssection section figure:hover p {
+  display: block;
+}
+
+.snssection section .im1 {
+  background-image: url("../img/sub3_sns01.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.snssection section .im2 {
+  background-image: url("../img/sub3_sns02.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.snssection section .im3 {
+  background-image: url("../img/sub3_sns03.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.snssection section .im4 {
+  background-image: url("../img/sub3_sns04.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.snssection section .im5 {
+  background-image: url("../img/sub3_sns05.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.snssection section .im6 {
+  background-image: url("../img/sub3_sns06.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.snssection section .im7 {
+  background-image: url("../img/sub3_sns07.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.snssection section .im8 {
+  background-image: url("../img/sub3_sns08.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.snssection section .im9 {
+  background-image: url("../img/sub3_sns09.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}

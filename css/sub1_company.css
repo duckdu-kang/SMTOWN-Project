@@ -1,0 +1,497 @@
+@font-face {
+  font-family: 'Post';
+  font-weight: 700;
+  src: url(../fonts/PoetsenOne-Regular.ttf);
+}
+
+div.content {
+  padding: 160px 0;
+  overflow-x: hidden;
+}
+
+div.content header {
+  width: 90%;
+  max-width: 1080px;
+  margin: 0 auto;
+}
+
+div.content header h2 {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 80px;
+  color: #000;
+  font-family: 'Noto Sans KR';
+}
+
+div.content header h3 {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 80px;
+  color: #000;
+  font-family: 'Noto Sans KR';
+}
+
+div.content header p {
+  overflow: hidden;
+}
+
+div.content section {
+  width: 90%;
+  max-width: 1060px;
+  margin: 0 auto;
+  margin-top: 80px;
+}
+
+div.content section h4 {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 40px;
+  color: #000;
+  font-family: 'Noto Sans KR';
+}
+
+div.content section h5 {
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 40px;
+  color: #333;
+  font-family: 'Noto Sans KR';
+}
+
+div.content section p {
+  overflow: hidden;
+}
+
+div.content section nav {
+  font-size: 30px;
+  line-height: 40px;
+  color: #000;
+}
+
+@media (max-width: 420px) {
+  div.content {
+    padding: 80px 0;
+  }
+  div.content section {
+    margin-top: 20px;
+  }
+}
+
+div.mnWrap {
+  height: 90vh;
+  overflow: hidden;
+}
+
+div.mnWrap main {
+  position: relative;
+  height: 90vh;
+}
+
+div.mnWrap main .background-image {
+  width: 110%;
+  height: 110%;
+  left: 0;
+  top: 0;
+  position: absolute;
+  background: url("https://images.unsplash.com/photo-1452723312111-3a7d0db0e024?crop=entropy&dpr=2&fit=crop&fm=jpg&h=750&ixjsv=2.1.0&ixlib=rb-0.3.5&q=50&w=1450.jpg") no-repeat left center/cover;
+  background-image: url(../img/company/smImg01.jpg);
+  background-repeat: no-repeat;
+}
+
+div.mnWrap main h1 {
+  margin: 0;
+  padding: 0;
+  pointer-events: none;
+  white-space: nowrap;
+  z-index: 9;
+  font-family: 'post';
+  position: absolute;
+  top: 50%;
+  left: 22%;
+  font-size: 100px;
+  font-weight: 100;
+  color: #fff;
+  line-height: 110px;
+}
+
+div.mnWrap main h2 {
+  font-size: 24px;
+  font-family: 'NotosansKR';
+  line-height: 40px;
+  margin: 0;
+  padding: 0;
+  pointer-events: none;
+  white-space: nowrap;
+  z-index: 9;
+  font-family: 'Spartan';
+  position: absolute;
+  top: 70%;
+  left: 22.5%;
+  color: #fff;
+}
+
+div.intro section .imgGroup .i1 {
+  background-image: url(../img/company/smImg02.jpg);
+}
+
+div.intro section .imgGroup .i2 {
+  background-image: url(../img/company/smImg03.jpg);
+}
+
+div.intro section .imgGroup .i3 {
+  background-image: url(../img/company/smImg04.jpg);
+}
+
+div.intro section .imgGroup .i4 {
+  background-image: url(../img/company/smImg05.jpg);
+}
+
+div.intro section .imgGroup .i5 {
+  background-image: url(../img/company/smImg06.jpg);
+}
+
+div.intro header {
+  color: #1c1c1c;
+  max-width: 1060px;
+  width: 90%;
+  margin: 0 auto;
+}
+
+div.intro header h2 {
+  font-size: 24px;
+  line-height: 40px;
+}
+
+div.intro header h2 span {
+  font-family: 'Post', serif;
+  font-size: 60px;
+  line-height: 80px;
+  position: relative;
+}
+
+div.intro header p {
+  font-family: 'Noto Sans KR';
+  font-weight: 400;
+  color: #777;
+  margin-top: 40px;
+  line-height: 30px;
+  font-size: 18px;
+}
+
+div.intro header p:nth-of-type(2) {
+  margin-top: 20px;
+  line-height: 40px;
+}
+
+div.intro section {
+  position: relative;
+  overflow: hidden;
+}
+
+div.intro section .imgGroup {
+  width: 100%;
+  position: relative;
+  height: 640px;
+}
+
+div.intro section .imgGroup .image {
+  width: 100%;
+  height: 640px;
+  background-color: #ccc;
+  background-position: center;
+  background-size: cover;
+  position: absolute;
+  top: 0;
+}
+
+div.intro section .count {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+div.intro section .count p {
+  font-family: 'Noto Serif KR';
+  color: #000;
+  font-size: 18px;
+  line-height: 80px;
+  margin-right: 23px;
+}
+
+div.intro section .count p span {
+  font-size: 24px;
+}
+
+div.intro section .count nav {
+  line-height: 80px;
+  cursor: pointer;
+  font-size: 20px;
+  margin-top: 3px;
+}
+
+div.intro section .count nav i {
+  padding: 10px;
+  width: 40px;
+  height: 40px;
+}
+
+div.unit section .artsGroup .article .i1 {
+  background-image: url(../img/company/unitM.jpeg);
+}
+
+div.unit section .artsGroup .article .i2 {
+  background-image: url(../img/company/unitS.jpeg);
+}
+
+div.unit section .artsGroup .article .i3 {
+  background-image: url(../img/company/unitC.jpeg);
+}
+
+div.unit section .artsGroup .article .i4 {
+  background-image: url(../img/company/unitMn.jpg);
+}
+
+div.unit {
+  position: relative;
+  background-color: #fcc;
+}
+
+div.unit h2 {
+  font-family: 'Post';
+  font-size: 60px;
+  color: #000;
+  font-weight: 100;
+  max-width: 1060px;
+  width: 90%;
+  margin: 0 auto;
+  text-transform: uppercase;
+}
+
+div.unit h2 span {
+  font-size: 24px;
+  font-family: 'Noto Sans KR';
+  font-weight: 500;
+  color: #212121;
+}
+
+div.unit section {
+  overflow: hidden;
+}
+
+div.unit section .artsGroup {
+  width: 200%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+div.unit section .artsGroup .article {
+  width: calc(100% / 4 - 20px);
+}
+
+div.unit section .artsGroup .article .image {
+  height: 280px;
+  background-color: #999;
+  background-position: center;
+  background-size: cover;
+}
+
+div.unit section .artsGroup .article .text {
+  text-align: center;
+}
+
+div.unit section .artsGroup .article .text h4 {
+  font-weight: 400;
+  font-size: 14px;
+  color: #373737;
+  line-height: 40px;
+}
+
+div.unit section .artsGroup .article .text h3 {
+  font-size: 24px;
+  color: #000;
+  line-height: 40px;
+  font-family: 'Noto sans KR';
+  font-weight: 500;
+}
+
+div.unit .btn {
+  width: 100%;
+  height: 300px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 0 auto;
+  position: absolute;
+  top: 380px;
+}
+
+div.unit .btn button {
+  width: 80px;
+  height: 80px;
+  color: #000;
+  background-color: transparent;
+  font-size: 30px;
+  padding: 0 150px;
+}
+
+div.core {
+  background-color: #000;
+  color: #fff;
+}
+
+div.core header h2 {
+  color: #fff;
+  font-size: 60px;
+  font-weight: 100;
+  font-family: 'Post';
+  line-height: 110px;
+}
+
+div.core header h4 {
+  font-size: 18px;
+  font-family: 'Noto Sans KR';
+  font-weight: 500;
+  color: #fff;
+}
+
+div.core header p {
+  margin-top: 40px;
+  color: #ccc;
+  font-size: 18px;
+  font-family: 'Noto+Sans+JP';
+  line-height: 30px;
+  font-weight: 500;
+}
+
+div.core section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin-top: 140px;
+}
+
+div.core section figure {
+  width: calc(50% - 20px);
+}
+
+div.core section figure h3 {
+  font-size: 40px;
+  font-weight: 100;
+  font-family: 'Post';
+  line-height: 80px;
+}
+
+div.core section figure p {
+  color: #ccc;
+  font-size: 20px;
+  font-family: 'NotoSansKR';
+  line-height: 40px;
+  font-weight: 500;
+}
+
+div.core section figure .image {
+  height: 320px;
+  background-position: center;
+  background-size: cover;
+  margin-top: 40px;
+}
+
+div.core section figure .image .btn {
+  display: none;
+  -webkit-transition: display .3s;
+  transition: display .3s;
+  border: 1px solid #000;
+}
+
+div.core section figure .image:hover .btn {
+  width: 100%;
+  display: visible;
+  background-color: rgba(245, 202, 178, 0.363);
+}
+
+div.core section figure.fi1 {
+  margin-left: -10px;
+}
+
+div.core section figure.fi1 .image {
+  background-image: url(../img/company/pro.jpg);
+}
+
+div.core section figure.fi1 .image .btn {
+  display: none;
+  -webkit-transition: display .3s;
+  transition: display .3s;
+  position: relative;
+}
+
+div.core section figure.fi1 .image .btn button {
+  position: absolute;
+  margin: auto;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}
+
+div.core section figure.fi1 .image:hover .btn {
+  display: block;
+  height: 320px;
+}
+
+div.core section figure.fi1 .image:hover .btn button {
+  background-color: transparent;
+  font-family: 'Spartan';
+  border: 1px solid #fff;
+  border-radius: 0;
+}
+
+div.core section figure.fi2 {
+  margin-right: -10px;
+  margin-top: -80px;
+}
+
+div.core section figure.fi2 .image {
+  background-image: url(../img/company/train.jpeg);
+}
+
+div.core section figure.fi2 .image .btn {
+  display: none;
+  -webkit-transition: display .3s;
+  transition: display .3s;
+  position: relative;
+}
+
+div.core section figure.fi2 .image .btn button {
+  position: absolute;
+  margin: auto;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}
+
+div.core section figure.fi2:hover .btn {
+  display: block;
+  height: 320px;
+}
+
+div.core section figure.fi2:hover .btn button {
+  background-color: transparent;
+  font-family: 'Spartan';
+  border: 1px solid #fff;
+  border-radius: 0;
+}
+
+@media screen and (max-width: 1400px) {
+  div.unit .btn {
+    display: none;
+  }
+}

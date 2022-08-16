@@ -1,0 +1,162 @@
+div.navWrap {
+  width: 100%;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: fixed;
+  top: 0;
+  z-index: 999999;
+  display: none;
+}
+
+div.navWrap .left {
+  width: 50%;
+  height: 100vh;
+  background-image: url(../img/index_nav.jpg);
+}
+
+div.navWrap .left .space {
+  padding-top: 20%;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+div.navWrap .left .space a h1 {
+  width: 120px;
+  height: 80px;
+  background-image: url(../img/smlogo109fixed.png);
+  background-position: center;
+  background-size: cover;
+}
+
+div.navWrap .left .space .artGroup {
+  margin-top: 20px;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+div.navWrap .left .space .artGroup article {
+  width: 100%;
+  margin-top: 30px;
+}
+
+div.navWrap .left .space .artGroup article .texts {
+  text-align: center;
+}
+
+div.navWrap .left .space .artGroup article .texts h3 {
+  font-family: 'post';
+  font-size: 32px;
+  line-height: 40px;
+  font-weight: 300;
+  color: #cc7c7c;
+  font-family: 'Spartan';
+}
+
+div.navWrap .left .space .artGroup article .texts h5 {
+  font-family: 'Noto Sans KR';
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+div.navWrap .left .space .artGroup article:hover h3 {
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+}
+
+div.navWrap .left .space .artGroup article:hover h5 {
+  text-decoration: underline;
+  text-underline-position: below;
+}
+
+div.navWrap .left .space .btn {
+  margin-top: 80px;
+}
+
+div.navWrap .left .space .btn button {
+  font-family: 'Noto Sans KR';
+  font-weight: 500;
+  color: #000;
+  font-size: 16px;
+  text-transform: uppercase;
+  width: 250px;
+  height: 80px;
+  background-color: #fcc;
+  border: 0;
+}
+
+div.navWrap .left .space .btn button:hover {
+  background-color: #cc7c7c;
+  color: #fff;
+}
+
+div.navWrap .left .time {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  z-index: 9999;
+}
+
+div.navWrap .left .time button {
+  font-weight: 500;
+  font-size: 24px;
+  color: #555;
+  width: 60px;
+  height: 60px;
+  border: none;
+  background-color: transparent;
+}
+
+div.navWrap .right {
+  width: 50%;
+  height: 100vh;
+  margin-left: auto;
+  text-align: right;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+div.navWrap .right .imgGroup {
+  height: 100%;
+}
+
+div.navWrap .right .imgGroup .image {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  background-position: center;
+  background-size: cover;
+  z-index: 0;
+}
+
+div.navWrap .right .imgGroup .i1 {
+  background-image: url(../img/index_navImage_1.jpg);
+}
+
+div.navWrap .right .imgGroup .i2 {
+  background-image: url(../img/index_navImage_2.jpg);
+}
+
+div.navWrap .right .imgGroup .i3 {
+  background-image: url(../img/index_navImage_3.jpg);
+}
+
+div.navWrap .right .imgGroup .i4 {
+  background-image: url(../img/index_navImage_4.jpg);
+}

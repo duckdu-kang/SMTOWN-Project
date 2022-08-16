@@ -1,0 +1,7 @@
+div.navWrap .left {
+  width: 100%;
+}
+
+div.navWrap .right {
+  display: none;
+}

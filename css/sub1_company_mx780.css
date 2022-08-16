@@ -1,0 +1,97 @@
+div.mnWrap {
+  height: 90vh;
+}
+
+div.mnWrap main h1 {
+  top: 55%;
+  left: 12%;
+  font-size: 60px;
+}
+
+div.mnWrap main h2 {
+  left: 12.5%;
+}
+
+div.mnWrap section .count p {
+  margin-left: 25px;
+  font-size: 24px;
+}
+
+div.mnWrap section .count p span {
+  font-size: 30px;
+}
+
+div.mnWrap section .count nav {
+  color: #000;
+}
+
+div.mnWrap section .artsGroup .article .image {
+  height: 200px;
+}
+
+div.mnWrap section .artsGroup .article .text h4 {
+  font-size: 12px;
+}
+
+div.mnWrap section .artsGroup .article .text h3 {
+  font-size: 18px;
+}
+
+div.mnWrap .btn {
+  display: none;
+}
+
+div.intro header p {
+  height: 240px;
+  overflow: hidden;
+  font-size: 20px;
+  line-height: 40px;
+}
+
+div.intro header p:nth-of-type(2) {
+  display: none;
+}
+
+div.intro section .imgGroup {
+  height: 420px;
+}
+
+div.intro section .imgGroup .image {
+  height: 420px;
+}
+
+div.unit section .artsGroup .article {
+  width: calc(100% / 4 - 20px);
+}
+
+div.unit section .artsGroup .article .image {
+  width: 100%;
+  height: 200px;
+}
+
+div.unit section .artsGroup .article .text h4 {
+  font-size: 12px;
+}
+
+div.unit section .artsGroup .article .text h3 {
+  font-size: 18px;
+}
+
+div.unit .btn {
+  display: none;
+}
+
+@media screen and (max-width: 1400px) {
+  div.unit .btn {
+    display: none;
+  }
+}
+
+div.core section figure.fi1 .image:hover .btn, div.core section figure.fi2 .image:hover .btn {
+  padding: 140px 100px;
+}
+
+div.core section figure.fi1 .image:hover .btn button, div.core section figure.fi2 .image:hover .btn button {
+  font-size: 14px;
+  width: 120px;
+}

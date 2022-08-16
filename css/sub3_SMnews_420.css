@@ -1,0 +1,281 @@
+body {
+  min-width: 360px;
+}
+
+body div.content {
+  padding: 40px 0;
+  overflow: hidden;
+}
+
+body div.content header {
+  max-width: 420px;
+}
+
+body div.content section {
+  max-width: 420px;
+}
+
+/* main */
+/* main */
+/* main */
+/* main */
+/* main */
+/* main */
+/* main */
+/* main */
+/* main */
+/* main */
+.mainWrap main .image {
+  height: 90vh;
+}
+
+.mainWrap .maintitle {
+  position: relative;
+  bottom: 0;
+  height: 90vh;
+}
+
+.mainWrap .maintitle .title {
+  width: 100%;
+  position: absolute;
+  top: 60%;
+  z-index: 3;
+}
+
+.mainWrap .maintitle .title .image {
+  height: 100px;
+  background-size: contain;
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
+}
+
+.mainWrap .maintitle .title h3 {
+  margin-top: 0px;
+  font-size: 48px;
+  line-height: 50px;
+  color: #000;
+  position: absolute;
+  bottom: -40px;
+}
+
+.mainWrap .maintitle .btns {
+  display: none;
+}
+
+/* artsection */
+/* artsection */
+/* artsection */
+/* artsection */
+/* artsection */
+/* artsection */
+/* artsection */
+/* artsection */
+/* artsection */
+/* artsection */
+.artsection section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.artsection section .image {
+  width: calc(100%);
+  height: 320px;
+  background-size: 105%;
+  margin-top: 40px;
+}
+
+.artsection section .image:hover {
+  background-size: 110%;
+}
+
+.artsection section .texts {
+  width: calc(100%);
+  text-align: center;
+}
+
+.artsection section .texts h5 {
+  text-align-last: left;
+}
+
+.artsection section .texts h3 {
+  padding-top: 20px;
+}
+
+.artsection section .texts p {
+  width: 80%;
+  height: 80px;
+  overflow: hidden;
+  position: relative;
+  margin: auto;
+  right: 0;
+  left: 0;
+}
+
+.artsection section .texts p br {
+  display: block;
+}
+
+.artsection section .texts p span {
+  display: none;
+}
+
+.artsection section .texts .btn button {
+  font-size: 12px;
+  width: 80px;
+  height: 30px;
+  color: #cc7c7c;
+  border: 1px solid #cc7c7c;
+  background-color: transparent;
+}
+
+.artsection section .texts .btn button span {
+  display: none;
+}
+
+.at01 {
+  padding: 160px 0 120px !important;
+}
+
+.at01 section .texts .btn button {
+  color: #cc7c7c;
+  border: 1px solid #cc7c7c;
+}
+
+.at02 {
+  padding: 80px 0 160px !important;
+}
+
+.at02 section {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: column-reverse;
+          flex-direction: column-reverse;
+}
+
+.at02 section .image {
+  background-size: 120%;
+}
+
+.at02 section .image:hover {
+  background-size: 130%;
+}
+
+/* mvsection */
+/* mvsection */
+/* mvsection */
+/* mvsection */
+/* mvsection */
+/* mvsection */
+/* mvsection */
+/* mvsection */
+/* mvsection */
+/* mvsection */
+.mvsection {
+  padding: 80px 0 120px !important;
+  background-color: #fcc;
+}
+
+.mvsection header .texts {
+  text-align: center;
+  width: 100%;
+}
+
+.mvsection header .texts h2 {
+  padding-left: 0px;
+  font-size: 18px;
+}
+
+.mvsection header .texts h2 span {
+  line-height: 40px;
+  font-size: 36px;
+}
+
+.mvsection header .texts h2 span br {
+  display: block;
+}
+
+.mvsection header .texts p {
+  margin-top: 20px;
+  font-size: 12px;
+  line-height: 20px;
+  padding: 10px 0;
+  padding-left: 20px;
+  text-align: left;
+}
+
+.mvsection section .mvframe {
+  width: 100%;
+  height: 280px;
+}
+
+.mvsection section .mvframe iframe {
+  width: 100%;
+  height: 280px;
+  position: absolute;
+  right: 5px;
+}
+
+.mvsection section .mvframe .mvbg {
+  width: 100%;
+  height: 280px;
+  position: absolute;
+  top: 10px;
+  right: -5px;
+}
+
+/* snssection */
+/* snssection */
+/* snssection */
+/* snssection */
+/* snssection */
+/* snssection */
+/* snssection */
+/* snssection */
+/* snssection */
+/* snssection */
+.snssection {
+  padding: 80px 0 120px !important;
+}
+
+.snssection header h2 {
+  font-size: 48px;
+  line-height: 60px;
+}
+
+.snssection header p {
+  font-size: 12px;
+  padding: 10px 0 40px;
+}
+
+.snssection section figure {
+  width: calc(100% / 2 - 10px);
+  height: 160px;
+}
+
+.snssection section figure p {
+  font-size: 24px;
+  padding: 40px 0;
+}
+
+.snssection section figure p span {
+  font-size: 12px;
+  line-height: 12px;
+}
+
+.snssection section .im4 {
+  display: none;
+}
+
+.snssection section .im7 {
+  display: none;
+}
+
+.snssection section .im8 {
+  display: none;
+}

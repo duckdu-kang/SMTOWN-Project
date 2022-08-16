@@ -1,0 +1,488 @@
+@font-face {
+  font-family: 'PoetsenOne';
+  src: url(../webfonts/PoetsenOne-Regular.ttf);
+}
+
+div.mnWrap {
+  overflow: hidden;
+}
+
+div.mnWrap main {
+  position: relative;
+  height: 90vh;
+}
+
+div.mnWrap main h1 {
+  margin: 0;
+  padding: 0;
+  pointer-events: none;
+  white-space: nowrap;
+  z-index: 9;
+  font-family: 'PoetsenOne';
+  position: absolute;
+  top: 50%;
+  left: 22%;
+  font-size: 100px;
+  color: #fff;
+  line-height: 120px;
+}
+
+div.mnWrap main .background-image {
+  width: 110%;
+  height: 110%;
+  position: absolute;
+  background-image: url("../img/main_bi3.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+div.enTer {
+  width: 90%;
+  max-width: 1080px;
+  margin: 0 auto;
+  padding: 160px 0;
+  position: relative;
+}
+
+div.enTer h2 {
+  font-size: 48px;
+  margin-left: 10px;
+}
+
+div.enTer h2 {
+  font-family: 'PoetsenOne';
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+div.enTer section {
+  overflow: hidden;
+  margin-top: 40px;
+}
+
+div.enTer section .artsGroup {
+  width: 200%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+div.enTer section .artsGroup .article {
+  width: calc(100% / 6 - 20px);
+}
+
+div.enTer section .artsGroup .article .image {
+  height: 300px;
+  background-color: #999;
+  background-position: top;
+  background-size: cover;
+}
+
+div.enTer section .artsGroup .article .i1 {
+  background-image: url(https://smcdn.smtown.com/file/star/201712/star_5a38b2a89bb15.jpg);
+}
+
+div.enTer section .artsGroup .article .i2 {
+  background-image: url(https://smcdn.smtown.com/file/star/201712/star_5a38b2d08cdbf.jpg);
+}
+
+div.enTer section .artsGroup .article .i3 {
+  background-image: url(https://smcdn.smtown.com/file/star/201712/star_5a38b2edd3093.jpg);
+}
+
+div.enTer section .artsGroup .article .i4 {
+  background-image: url(https://smcdn.smtown.com/file/star/202109/star_6130719c1d1f3.jpg);
+}
+
+div.enTer section .artsGroup .article .i5 {
+  background-image: url(https://smcdn.smtown.com/file/star/202012/star_5fd88e292cc4a.jpg);
+}
+
+div.enTer section .artsGroup .article .i6 {
+  background-image: url(https://smcdn.smtown.com/file/star/202002/star_5e421583d48e7.jpg);
+}
+
+div.enTer section .artsGroup .article .text {
+  text-align: left;
+  opacity: 0;
+  height: 100%;
+  padding: 40px;
+}
+
+div.enTer section .artsGroup .article .text dl {
+  text-align: center;
+  margin-top: 20px;
+}
+
+div.enTer section .artsGroup .article .text dl dt {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 40px;
+}
+
+div.enTer section .artsGroup .article .text:hover {
+  text-align-last: left;
+  opacity: 1;
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+div.enTer section .artsGroup .article h3 {
+  font-size: 24px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+div.enTer .btn {
+  width: calc(100% + 160px);
+  height: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  position: absolute;
+  margin: auto;
+  top: 0;
+  bottom: 0;
+  left: -80px;
+}
+
+div.enTer .btn button {
+  width: 80px;
+  height: 80px;
+  border: 0;
+  background-color: transparent;
+  font-size: 36px;
+  color: #000;
+}
+
+div.singwrap {
+  padding: 160px 0;
+  background-color: #fcc;
+}
+
+div.singwrap .sing {
+  width: 90%;
+  max-width: 1080px;
+  margin: 0 auto;
+}
+
+div.singwrap .sing h2 {
+  font-size: 48px;
+  margin-left: 10px;
+}
+
+div.singwrap .sing h2 {
+  font-family: 'PoetsenOne';
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+div.singwrap .sing section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 40px;
+}
+
+div.singwrap .sing section .artGroup {
+  width: calc(100% / 3 - 20px);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  row-gap: 40px;
+}
+
+div.singwrap .sing section .artGroup article {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 100%;
+  height: 120px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+div.singwrap .sing section .artGroup article .img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50px;
+  background-color: #999;
+  background-position: center;
+  background-size: cover;
+}
+
+div.singwrap .sing section .artGroup article .i1 {
+  background-image: url(https://smcdn.smtown.com/file/star/202107/star_60e4061d96d33.jpg);
+}
+
+div.singwrap .sing section .artGroup article .i2 {
+  background-image: url(https://smcdn.smtown.com/file/star/202201/star_61e0e4cd33c52.jpg);
+}
+
+div.singwrap .sing section .artGroup article .i3 {
+  background-image: url(https://smcdn.smtown.com/file/star/202109/star_614c406660b49.jpg);
+}
+
+div.singwrap .sing section .artGroup article .i4 {
+  background-image: url(https://smcdn.smtown.com/file/star/202103/star_604b2af9be5ff.jpg);
+}
+
+div.singwrap .sing section .artGroup article .i5 {
+  background-image: url(https://smcdn.smtown.com/file/star/202110/star_616687026b79e.jpg);
+}
+
+div.singwrap .sing section .artGroup article .i6 {
+  background-image: url(https://smcdn.smtown.com/file/star/202112/star_61a728b212c72.jpg);
+}
+
+div.singwrap .sing section .artGroup article .texts {
+  width: calc(100% - 100px);
+}
+
+div.singwrap .sing section .artGroup article .texts h4 {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 40px;
+}
+
+div.singwrap .sing section .artGroup article .texts p {
+  height: 40px;
+  font-size: 14px;
+}
+
+div.singwrap .sing section .artGroup.rtl article {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+  text-align: right;
+}
+
+div.singwrap .sing section .artGroup .clicked {
+  background-color: #cc7c7c;
+  color: #fff;
+}
+
+div.singwrap .sing section .imgView {
+  width: calc(100% / 2 - 20px);
+  height: 440px;
+  -webkit-box-shadow: 0 3px 7px rgba(0, 0, 0, 0.3);
+          box-shadow: 0 3px 7px rgba(0, 0, 0, 0.3);
+  background-image: url(../img/sing_ty.jpg);
+  background-position: center;
+  background-size: cover;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+div.actwrap {
+  padding: 160px 0;
+  background-color: #000;
+}
+
+div.actwrap div.actors {
+  width: 90%;
+  max-width: 1080px;
+  margin: 0 auto;
+  color: #fff;
+}
+
+div.actwrap div.actors h2 {
+  font-size: 48px;
+  margin-left: 10px;
+}
+
+div.actwrap div.actors h2 {
+  font-family: 'PoetsenOne';
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+div.actwrap div.actors section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin-top: 40px;
+}
+
+div.actwrap div.actors section .imgView {
+  width: calc(66.66% - 20px);
+  background-color: #999;
+  background-image: url(../img/act1.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 700px;
+}
+
+div.actwrap div.actors section article {
+  width: calc(33.33% - 20px);
+}
+
+div.actwrap div.actors section article h4 {
+  font-weight: 700;
+}
+
+div.actwrap div.actors section article ul {
+  display: block;
+}
+
+div.actwrap div.actors section article ul li {
+  padding: 20px 0;
+}
+
+div.actwrap div.actors section article ul li:first-of-type p {
+  display: block;
+}
+
+div.actwrap div.actors section article ul h5 {
+  font-size: 18px;
+  line-height: 40px;
+  font-weight: 700;
+  color: #fff;
+  cursor: pointer;
+}
+
+div.actwrap div.actors section article ul p {
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 300;
+  color: #ccc;
+  height: 100px;
+  margin-top: 20px;
+  display: none;
+}
+
+@media screen and (max-width: 950px) {
+  div.enTer .btn {
+    width: calc(100% + 120px);
+    left: -60px;
+  }
+  div.sing section .artGroup article .texts {
+    height: 120px;
+  }
+  div.sing section .imgView {
+    width: 40%;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  div.sing section .artGroup article .texts p {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  div.mnWrap main h1 {
+    font-size: 60px;
+    left: 10%;
+    top: 60%;
+  }
+  div.enTer section .artsGroup {
+    width: 300%;
+  }
+  div.enTer section .artsGroup .article {
+    width: calc(50% - 20px);
+    margin: 0 5px;
+  }
+  div.enTer section .artsGroup .article .image {
+    height: 200px;
+  }
+  div.enTer section .artsGroup .article .image .text {
+    padding: 10px;
+    font-size: 10px;
+  }
+  div.enTer section .artsGroup .article .image .text dl {
+    margin-top: 10px;
+  }
+  div.enTer section .artsGroup .article .image .text dl dd {
+    font-size: 8px;
+  }
+  div.enTer .btn {
+    width: 60%;
+    left: 0px;
+    position: inherit;
+    margin-top: 10px;
+  }
+  div.enTer .btn button {
+    font-size: 20px;
+    padding: 10px;
+    width: 40px;
+    height: 40px;
+  }
+  div.singwrap div.sing section {
+    display: block;
+  }
+  div.singwrap div.sing section .artGroup {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+  }
+  div.singwrap div.sing section .artGroup article {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    width: calc(30% - 20px);
+    margin: 0 auto;
+  }
+  div.singwrap div.sing section .artGroup article .texts {
+    display: none;
+  }
+  div.singwrap div.sing section .artGroup .clicked {
+    background-color: transparent;
+  }
+  div.singwrap div.sing section .artGroup.rtl article {
+    -webkit-box-orient: inherit;
+    -webkit-box-direction: inherit;
+        -ms-flex-direction: inherit;
+            flex-direction: inherit;
+    margin-top: 40px;
+  }
+  div.singwrap div.sing section .imgView {
+    width: 100%;
+    height: 360px;
+  }
+  div.actwrap div.actors section {
+    display: block;
+  }
+  div.actwrap div.actors section .imgView {
+    width: 100%;
+    height: 360px;
+  }
+  div.actwrap div.actors section article {
+    width: 100%;
+    margin-top: 20px;
+  }
+  div.actwrap div.actors section article ul li {
+    padding: 5px 0;
+  }
+  div.actwrap div.actors section article ul li p {
+    margin-top: 5px;
+  }
+  h2 {
+    font-size: 30px !important;
+  }
+  h3 {
+    font-size: 18px !important;
+  }
+}

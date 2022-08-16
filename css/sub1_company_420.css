@@ -1,0 +1,96 @@
+div.mnWrap main h1 {
+  top: 60%;
+  font-size: 60px;
+}
+
+div.mnWrap main h2 {
+  display: none;
+}
+
+div.intro header h2 {
+  font-size: 14px;
+  line-height: 40px;
+}
+
+div.intro header h2 span {
+  font-size: 36px;
+  line-height: 40px;
+}
+
+div.intro header p {
+  height: 160px;
+  overflow: hidden;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+div.intro header p:nth-of-type(2) {
+  display: none;
+}
+
+div.intro section .imgGroup {
+  height: 280px;
+}
+
+div.intro section .imgGroup .image {
+  height: 280px;
+}
+
+div.unit {
+  padding: 120px 0 160px;
+}
+
+div.unit h2 {
+  font-size: 36px;
+}
+
+div.unit h2 span {
+  font-size: 14px;
+  line-height: 80px;
+}
+
+div.unit section .artsGroup .article {
+  width: calc(100% / 4 - 10px);
+}
+
+div.unit section .artsGroup .article .image {
+  width: 100%;
+  height: 200px;
+}
+
+div.core header h2 {
+  font-size: 36px;
+  line-height: 80px;
+}
+
+div.core header h4 {
+  font-size: 14px;
+}
+
+div.core header p {
+  font-size: 14px;
+  line-height: 20px;
+}
+
+div.core header p span {
+  display: none;
+}
+
+div.core section {
+  margin-top: 120px;
+}
+
+div.core section figure h3 {
+  font-size: 24px;
+  line-height: 40px;
+}
+
+div.core section figure p {
+  font-size: 14px;
+  line-height: 40px;
+}
+
+div.core section figure.fi1 .image:hover .btn button, div.core section figure.fi2 .image:hover .btn button {
+  font-size: 14px;
+  width: 120px;
+}

@@ -1,0 +1,116 @@
+
+div.mnWrap{
+    main{
+        h1{
+            top: 60%;
+            font-size: 60px;
+        }
+        h2{
+            display: none;
+        }
+    }
+}
+
+// mx 420에서 컨텐츠// 
+// mx 420에서 컨텐츠// 
+
+div.intro{
+    header{
+
+        h2{
+            font-size: 14px;
+            line-height: 40px;
+            span {
+                font-size: 36px;
+                line-height: 40px;
+            }
+        }
+
+        p{
+            height:160px;
+            overflow: hidden;
+            font-size: 14px;
+            line-height: 20px;
+            &:nth-of-type(2){
+                display: none;
+            }
+        }
+    }
+    section{
+        .imgGroup{
+            height: 280px;
+            .image{
+                height: 280px;
+            } 
+        }
+    }
+}
+
+div.unit{
+    padding: 120px 0 160px;
+    h2{
+        font-size: 36px;
+        
+        span{
+            font-size: 14px;
+            line-height: 80px;
+        }
+    }
+    section{
+        .artsGroup{
+            .article{
+                width: calc(100% / 4 - 10px);
+                .image{
+                    width: 100%;
+                    height: 200px;
+                }
+                
+            }
+        }
+    }
+}
+
+div.core{
+    header{
+        h2{
+            font-size: 36px;
+            line-height: 80px;
+        }
+        h4{
+            font-size: 14px;
+        }
+        p{
+            font-size: 14px;
+            line-height: 20px;
+            span{
+                display: none;
+            }
+        }
+    }
+    section {
+        margin-top: 120px;
+        figure{
+            h3{
+                font-size: 24px;
+                line-height: 40px;
+            }
+            p{
+                font-size: 14px;
+                line-height: 40px;
+            }
+        }
+        figure.fi1,figure.fi2{
+            .image:hover{
+                .btn{
+                    button{
+                        font-size: 14px;
+                        width: 120px;
+                        
+                    }
+                }
+            }
+        }
+    }
+}
+
+
